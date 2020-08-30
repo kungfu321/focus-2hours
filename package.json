@@ -1,8 +1,8 @@
 {
   "name": "focus-2hours",
   "version": "1.0.0",
-  "description": "A Vue.js web extension",
-  "author": "Vo Manh Kien <kienvo247@gmail.com>",
+  "description": "A Google Chrome extension to help manage work and break times.",
+  "author": "Vo Manh Kien <hi@vomanhkien.com>",
   "engines": {
     "node": ">=10"
   },

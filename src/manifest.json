@@ -1,0 +1,28 @@
+{
+  "name": "Focus 2 Hours",
+  "description": "Focus 2 Hours",
+  "version": null,
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Focus 2 Hours",
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "48": "icons/icon_48.png",
+      "128": "icons/icon_128.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "webNavigation",
+    "notifications",
+    "storage",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
